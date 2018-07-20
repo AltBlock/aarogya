@@ -6,9 +6,20 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_bmi"
-            android:icon="@drawable/ic_menu_camera"
+            android:icon="@drawable/ic_show_chart_black_24dp"
             android:title="Body Mass Index" />
-
+        <item
+            android:id="@+id/nav_vaccination"
+            android:icon="@drawable/ic_local_hospital_black_24dp"
+            android:title="Vaccination" />
+        <item
+            android:id="@+id/nav_doctor"
+            android:icon="@drawable/ic_group_black_24dp"
+            android:title="Doctor Information" />
+        <item
+            android:id="@+id/nav_pregTraker"
+            android:icon="@drawable/ic_multiline_chart_black_24dp"
+            android:title="Pregnancy Tracker" />
     </group>
 
 

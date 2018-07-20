@@ -2,11 +2,14 @@ package com.example.adsl4.aarogya;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Html;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
+
+import java.text.DecimalFormat;
 
 public class BMIActivity extends AppCompatActivity {
 EditText edtWeight,edtHeight;
@@ -46,10 +49,13 @@ TextView txtBmi;
                 }
 
                 weight=Float.parseFloat(edtWeight.getText().toString());
-                double bmi=weight/(height*height);
+                double bmis=weight/(height*height);
+                DecimalFormat df = new DecimalFormat("#.##");
+                double bmi =Double.parseDouble(df.format(bmis));
+
                 if(bmi<=15)
                 {
-                    condition="<b>Very severely underweight.</b>";
+                    condition="<i>Very severely underweight.</i>";
                 }
                 else if(bmi<=16){
                     condition="<b>Severely underweight.</b>";
@@ -81,7 +87,7 @@ TextView txtBmi;
                 else if(bmi>60){
                     condition="Hyper Obese.";
                 }
-                txtBmi.setText("Your Body Mass Index is "+bmi+" This is considered "+condition);
+                txtBmi.setText("Your Body Mass Index is "+bmi+" This is considered "+ Html.fromHtml(condition));
             }
         });
 

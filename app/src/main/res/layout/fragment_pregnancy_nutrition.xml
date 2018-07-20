@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.PregnancyNutrition">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proteins"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Fish, meat and egg"
+            android:background="#dcd8d8"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:elevation="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Milk, cheese, and other dairy foods"
+            android:background="#cef2b3"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Beans and peas"
+            android:background="#dcd8d8"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:elevation="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Nuts and seeds"
+            android:background="#cef2b3"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Carbohydrates"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Fruits (especially dried fruits, berries, oranges, apples, and peaches with
+the skin)"
+            android:background="#dcd8d8"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:elevation="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Vegetables (such as dried beans, peas, and leafy vegetables like spinach
+and kale)"
+            android:background="#cef2b3"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Whole-grain products (such as whole-wheat bread or brown rice)"
+            android:background="#dcd8d8"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:elevation="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fats"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="The body needs a certain amount of fat to function normally. Some types of
+fats, called omega-3 fatty acids, play an important role in brain development.
+Fats also are essential to the function of theimmune system, aid in blood
+clotting, and help your body use vitamins A, D, E, and K."
+            android:background="#cef2b3"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            />
+    </LinearLayout>
+    </ScrollView>
+</FrameLayout>

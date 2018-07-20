@@ -8,7 +8,10 @@
     tools:context=".MainActivity"
     tools:showIn="@layout/app_bar_main"
     android:orientation="vertical">
-
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,6 +25,19 @@
         android:textColor="#fff"
         android:id="@+id/btnBmi"
         />
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="35dp"-->
+        <!--android:layout_marginStart="35dp"-->
+        <!--android:layout_marginRight="35dp"-->
+        <!--android:layout_marginEnd="35dp"-->
+        <!--android:layout_marginTop="20dp"-->
+        <!--android:text="Calorie Requirement"-->
+        <!--android:background="@drawable/round_button_green"-->
+        <!--android:textColor="#fff"-->
+        <!--android:id="@+id/btnCalorie"-->
+        <!--/>-->
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -30,10 +46,19 @@
         android:layout_marginRight="35dp"
         android:layout_marginEnd="35dp"
         android:layout_marginTop="20dp"
-        android:text="Calorie Requirement"
+        android:text="Pregnancy Tracker"
         android:background="@drawable/round_button_green"
         android:textColor="#fff"
-        android:id="@+id/btnCalorie"
-        />>
+        android:id="@+id/btnPregTracker"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <include
+        layout="@layout/mother"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
 
+</LinearLayout>
 </LinearLayout>

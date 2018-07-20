@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.Pregnancy">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingRight="10dp"
+        android:paddingEnd="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Pending menstruation"
+        android:background="#dcd8d8"
+        android:textStyle="bold"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:elevation="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Food aversions"
+        android:background="#cef2b3"
+        android:textStyle="bold"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Mood swings"
+            android:background="#dcd8d8"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:elevation="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Abdominal bloating"
+            android:background="#cef2b3"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Frequent urination"
+            android:background="#dcd8d8"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:elevation="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Fatigue"
+            android:background="#cef2b3"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Sore breasts"
+            android:background="#dcd8d8"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:elevation="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Light bleeding or spotting"
+            android:background="#cef2b3"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Nausea"
+            android:background="#dcd8d8"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:elevation="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="A missed period"
+            android:background="#cef2b3"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="High basal body temperature"
+            android:background="#dcd8d8"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            android:elevation="5dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Positive home pregnancy test."
+            android:background="#cef2b3"
+            android:textStyle="bold"
+            android:paddingStart="5dp"
+            android:paddingLeft="5dp"
+            />
+    </LinearLayout>
+
+</FrameLayout>
